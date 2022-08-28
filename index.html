@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Barlow|Fraunces"
+    />
+    <link rel="stylesheet" href="medisquery.css" />
+    <title>Sunnyside</title>
+  </head>
+  <body>
+    <section class="hero">
+      <header>
+        <nav class="desktop_menu">
+          <div class="brand_logo">
+            <a href="#">
+              <img src="./images/logo.svg" alt="sunny side logo"
+            /></a>
+          </div>
+          <div class="menu">
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <a href="#">projects</a>
+            <button>contact</button>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Mobile Menu -->
+      <div class="hamburger_button" id="menu_btn">
+        <div class="top"></div>
+        <div class="top"></div>
+        <div class="top"></div>
+      </div>
+      <section class="hamburger_header" id="menu">
+        <nav class="mobile_menu">
+          <a href="#">about</a>
+          <a href="#">services</a>
+          <a href="#">projects</a>
+          <button>contact</button>
+        </nav>
+      </section>
+
+      <h1>we are creatives</h1>
+      <div class="arrow_down">
+        <img src="./images/icon-arrow-down.svg" alt="arrow_down" />
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="box box1">
+        <h1>Transform your brand</h1>
+        <p>
+          We are a full-service creative agency specializing in helping brands
+          grow faster. Engage your clients through compelling visuals that do
+          most of the marketing for you.
+        </p>
+        <h3>learn more</h3>
+      </div>
+
+      <div class="box box2"></div>
+
+      <div class="box box3"></div>
+
+      <div class="box box1 box4">
+        <h1>Stand out to the right audience</h1>
+        <p>
+          Using a collaborative formula of designers, researchers,
+          photographers, videographers, and copywriters, we'll build and extend
+          your brand in digital places.
+        </p>
+        <h3>learn more</h3>
+      </div>
+
+      <div class="box box5">
+        <h1>graphic designs</h1>
+        <p>
+          Great designs makes you memorable. We deliver artwork that underscores
+          your brand and captures potential clients attention.
+        </p>
+      </div>
+      <div class="box box6">
+        <h1>photography</h1>
+        <p>
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
+      </div>
+      <div class="box box7">
+        <h1>client testimonials</h1>
+        <article class="reviews">
+          <div class="Emily">
+            <img src="./images/image-emily.jpg" alt="emily avatar" />
+            <p class="good_word">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <h2>emily r.</h2>
+            <p class="post">managing director</p>
+          </div>
+
+          <div class="Thomas">
+            <img src="./images/image-thomas.jpg" alt="thomas avatar" />
+            <p class="good_word">
+              Sunnyside's enthusiasm couples with thier keen interest in our
+              brand's success made it a satisfying and enjoyable experience.
+            </p>
+            <h2>thomas s.</h2>
+            <p class="post">chief operating officer</p>
+          </div>
+
+          <div class="Jennie">
+            <img src="./images/image-jennie.jpg" alt="jennie avatar" />
+            <p class="good_word">
+              Incredible end result! Our sales increased over 400% when we
+              worked wih Sunnyside. Highly recommended!
+            </p>
+
+            <h2>jennie f.</h2>
+            <p class="post">business owner</p>
+          </div>
+        </article>
+      </div>
+      <div class="box box8">
+        <div class="boxa"></div>
+        <div class="boxb"></div>
+        <div class="boxc"></div>
+        <div class="boxd"></div>
+      </div>
+    </section>
+
+    <footer>
+      <h1>Sunnyside</h1>
+      <div class="links">
+        <a href="#">about</a>
+        <a href="#">services</a>
+        <a href="#">projects</a>
+      </div>
+      <div class="icons">
+        <img src="./images/icon-facebook.svg" alt="icon-facebook" />
+        <img src="./images/icon-instagram.svg" alt="instagram icon" />
+        <img src="./images/icon-twitter.svg" alt="twitter icon" />
+        <img src="./images/icon-pinterest.svg" alt="pintrest icon" />
+      </div>
+    </footer>
+
+    <script>
+      const btn = document.getElementById("menu_btn");
+      const nav = document.getElementById("menu");
+
+      btn.addEventListener("click", () => {
+        nav.classList.toggle("open");
+        btn.classList.toggle("open_btn");
+      });
+    </script>
+  </body>
+</html>
