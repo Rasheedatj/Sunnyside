@@ -30,8 +30,8 @@
     .hero h1{
         font-weight: 900;
         font-size: 35px;
-        padding-top: 3em;
-        padding-bottom: 4em;
+        padding-top: 2em;
+        padding-bottom: 1.7em;
     }
     .wrapper .box1{
         padding: 0 1.5em;
@@ -48,15 +48,11 @@
     .wrapper .box1 h3{
         text-align: center;
     }
-    .wrapper .box5{
-    height: 60vh;
-    }
+    
     .wrapper .box5 p{
         padding: 0 1em;
     }
-    .wrapper .box6{
-    height: 60vh;
-    }
+   
     .wrapper .box6 p{
         padding: 0 1em;
     }
