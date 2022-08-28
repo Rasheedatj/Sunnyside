@@ -4,7 +4,7 @@
         width: 100%;
     }
     header{
-        padding: 1em;
+        padding: 2em 1.5em;
     }
     .desktop_menu .menu a,button{
         display: none;
@@ -31,7 +31,7 @@
         font-weight: 900;
         font-size: 35px;
         padding: 0;
-        padding-bottom: 3em;
+        padding-bottom: 2.5em;
         padding-top: 2.5em;
     }
     .wrapper .box1{

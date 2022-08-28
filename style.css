@@ -23,7 +23,7 @@
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 105vh;
 }
 .hero h1{
     color: var(--menuColor);
@@ -43,7 +43,7 @@
 }
 /* Desktop menu */
 header{
-    padding: 1em 2em;
+    padding: 2em 3em;
 }
 .desktop_menu{
     display: flex;
@@ -56,7 +56,7 @@ header{
 .desktop_menu div:nth-child(2){
     display: flex;
     justify-content: flex-end;
-    justify-content: space-around;
+    gap: 5rem;
     align-items: center;
 }
 .desktop_menu a{
