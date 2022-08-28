@@ -25,13 +25,14 @@
     }
     /* hero section */
     .hero{
-        height: 80vh;
+        height: 90vh;
     }
     .hero h1{
         font-weight: 900;
         font-size: 35px;
-        padding-top: 2em;
-        padding-bottom: 1.7em;
+        padding: 0;
+        padding-bottom: 1.2em;
+        padding-top: 1em;
     }
     .wrapper .box1{
         padding: 0 1.5em;
