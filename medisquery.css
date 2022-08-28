@@ -49,14 +49,14 @@
     .wrapper .box1 h3{
         text-align: center;
     }
-    
-    .wrapper .box5 p{
+    .wrapper .box5, .wrapper .box6{
+        padding-bottom: 3em;
+    }
+    .wrapper .box5 p,.wrapper .box6 p{
         padding: 0 1em;
     }
    
-    .wrapper .box6 p{
-        padding: 0 1em;
-    }
+   
 
 
 
