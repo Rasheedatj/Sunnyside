@@ -88,8 +88,8 @@ header{
 
 /* Hamburger Menu */
 .hamburger_button{
-    width: 100px;
-    height: 60px;
+    /* width: 100px;
+    height: 60px; */
     display: none;
     align-items: flex-end;
     justify-content: center;
@@ -97,7 +97,8 @@ header{
     gap: 5px;
     position: absolute;
     top:.7em;
-    right: 1em;
+    right: 1.5em;
+    transform: translateY(110%);
 }
 .hamburger_button > div{
     width: 30px;

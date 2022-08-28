@@ -5,6 +5,7 @@
     }
     header{
         padding: 2em 1.5em;
+        align-items: center;
     }
     .desktop_menu .menu a,button{
         display: none;
